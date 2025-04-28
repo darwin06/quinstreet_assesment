@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Information Form | Get in Touch With Us</title>
+
+    <!-- Essential SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Submit your contact information through our easy-to-use form. We'll respond to your inquiry promptly."
+    />
+    <meta
+      name="keywords"
+      content="contact form, contact information, get in touch, inquiry form"
+    />
+    <meta name="author" content="modernize" />
+
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="./" />
+    <meta
+      property="og:title"
+      content="Contact Information Form | Get in Touch With Us"
+    />
+    <meta
+      property="og:description"
+      content="Submit your contact information through our easy-to-use form. We'll respond to your inquiry promptly."
+    />
+    <meta property="og:image" content="./assets/img/logo.svg" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="./" />
+    <meta
+      name="twitter:title"
+      content="Contact Information Form | Get in Touch With Us"
+    />
+    <meta
+      name="twitter:description"
+      content="Submit your contact information through our easy-to-use form. We'll respond to your inquiry promptly."
+    />
+    <meta name="twitter:image" content="./assets/img/logo.svg" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="./" />
+
+    <!-- Mobile-specific meta tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <!-- IE Edge compatibility -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Robots Meta Tags -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "modernize",
+        "url": "./",
+        "logo": "./assets/img/logo.svg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-800-000-0000",
+          "contactType": "customer service"
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="./assets/css/styles.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="assets/img/logo.svg" loading="lazy" alt="modernize" />
+    </header>
+    <main class="main">
+      <div class="container">
+        <header class="form-header header">
+          <h3>
+            Enter to win a 3rd generation Nest Learning Thermostat worth $249.
+          </h3>
+        </header>
+        <div class="form-container">
+          <form id="contactForm" class="form-wrap">
+            <div class="form-grid">
+              <div class="form-row">
+                <div class="form-column form-column--full">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Name"
+                    class="form-input"
+                  />
+                  <div class="error-message" id="nameError">
+                    Name must be at least 2 characters
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-column form-column--70">
+                  <input
+                    type="text"
+                    id="city"
+                    name="city"
+                    placeholder="City"
+                    class="form-input"
+                  />
+                </div>
+                <div class="form-column form-column--30">
+                  <input
+                    type="text"
+                    id="state"
+                    name="state"
+                    placeholder="State"
+                    class="form-input"
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-column form-column--full">
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Phone Number"
+                    class="form-input"
+                  />
+                  <div class="error-message" id="phoneError">
+                    Valid phone number required
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-column form-column--full">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Email Address"
+                    class="form-input"
+                  />
+                  <div class="error-message" id="emailError">
+                    Valid email required
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-success">
+              <div class="form-submit">
+                <button type="submit" id="submitButton">Enter to Win</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <section class="promo">
+        <h2 class="promo__heading">Even More Savings</h2>
+        <div class="promo__container">
+          <div class="promo__content">
+            <p class="promo__label">Advertorial</p>
+            <h3 class="promo__title">
+              Tricks Homeowners Use to Eliminate Bills
+            </h3>
+            <p class="promo__description">
+              Surging energy bills, unpredictable weather patterns and
+              dissatisfaction with utility companies have homeowners
+              scrambling&hellip; <a
+              class="read-more"
+              href="https://www.google.com"
+              target="_blank"
+              class="promo__link"
+              >Read More</a
+            >
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="assets/js/scripts.min.js"></script>
+  </body>
+</html>
